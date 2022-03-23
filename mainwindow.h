@@ -24,6 +24,7 @@ private slots:
 
       void on_comboREB_currentIndexChanged(int index);
 
+
 private:
     Ui::MainWindow *ui;
 };

@@ -6,6 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->tableREB->setEditTriggers(QAbstractItemView::NoEditTriggers);
 }
 
 MainWindow::~MainWindow()
@@ -44,7 +45,7 @@ void MainWindow::on_BtSbros_clicked()
 
 void MainWindow::on_comboREB_currentIndexChanged(int index)
 {
-    if (ui->comboREB->currentIndex()==0) // qwertyui
+    if (ui->comboREB->currentIndex()==0)
     {
         ui->EdtKoef->setText("3");
         ui->EdtMosh->setText("7");
@@ -60,4 +61,7 @@ void MainWindow::on_comboREB_currentIndexChanged(int index)
         ui->EdtMosh->setText("11");
     }
 }
+
+
+
 
