@@ -433,6 +433,7 @@
       </item>
      </layout>
     </widget>
+<<<<<<< HEAD
     <widget class="QGroupBox" name="groupBox_4">
      <property name="geometry">
       <rect>
@@ -484,6 +485,17 @@
        <string>Page 2</string>
       </attribute>
      </widget>
+=======
+    <widget class="QCalendarWidget" name="calendarWidget">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>170</y>
+       <width>312</width>
+       <height>190</height>
+      </rect>
+     </property>
+>>>>>>> f0239a8b9d6e6f9c8760b22e539b79f641f44301
     </widget>
    </widget>
    <widget class="QWidget" name="layoutWidget">
