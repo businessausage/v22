@@ -20,6 +20,8 @@ private slots:
 
       void on_BtChange_clicked();
 
+      void on_BtSbros_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

@@ -30,3 +30,17 @@ void MainWindow::on_BtChange_clicked()
             ui->BtChange->setText("Изменить");
 }
 
+
+void MainWindow::on_BtSbros_clicked()
+{
+    ui->EdtChastota->setText("");
+    ui->EdtKoef->setText("");
+    ui->EdtKolichestvo->setText("");
+    ui->EdtMosh->setText("");
+    ui->EdtX->setText("");
+    ui->EdtY->setText("");
+    ui->comboREB->setCurrentIndex(-1);
+    ui->comboVariant->setCurrentIndex(-1);
+
+}
+
