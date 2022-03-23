@@ -14,7 +14,6 @@ MainWindow::~MainWindow()
 }
 
 
-
 void MainWindow::on_comboVariant_currentIndexChanged(int index)
 {
     ui->comboVariant->setCurrentIndex(-1);
