@@ -45,7 +45,7 @@ void MainWindow::on_BtSbros_clicked()
 
 void MainWindow::on_comboREB_currentIndexChanged(int index)
 {
-    if (ui->comboREB->currentIndex()==0)
+    if (ui->comboREB->currentIndex()==0) // qwertyui
     {
         ui->EdtKoef->setText("3");
         ui->EdtMosh->setText("7");
