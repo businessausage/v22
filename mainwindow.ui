@@ -2,18 +2,10 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>801</width>
-    <height>580</height>
-   </rect>
-  </property>
   <property name="minimumSize">
    <size>
-    <width>580</width>
-    <height>0</height>
+    <width>800</width>
+    <height>630</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -163,6 +155,9 @@
           <pointsize>8</pointsize>
          </font>
         </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhNone</set>
+        </property>
         <property name="maxLength">
          <number>5</number>
         </property>
@@ -215,7 +210,7 @@
       <x>0</x>
       <y>140</y>
       <width>391</width>
-      <height>351</height>
+      <height>411</height>
      </rect>
     </property>
     <property name="font">
@@ -378,7 +373,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>320</y>
+       <y>370</y>
        <width>373</width>
        <height>31</height>
       </rect>
@@ -479,13 +474,13 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>801</width>
+      <width>800</width>
       <height>41</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>580</width>
+      <width>800</width>
       <height>0</height>
      </size>
     </property>
@@ -511,13 +506,25 @@
     </property>
    </widget>
    <widget class="QTableWidget" name="tableREB">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>400</x>
       <y>80</y>
       <width>391</width>
-      <height>411</height>
+      <height>471</height>
      </rect>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+    <property name="gridStyle">
+     <enum>Qt::SolidLine</enum>
     </property>
     <attribute name="verticalHeaderVisible">
      <bool>true</bool>
@@ -577,7 +584,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>801</width>
+     <width>811</width>
      <height>22</height>
     </rect>
    </property>

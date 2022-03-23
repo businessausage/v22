@@ -14,8 +14,19 @@ MainWindow::~MainWindow()
 }
 
 
-void MainWindow::on_pushButton_4_clicked()
-{
 
+void MainWindow::on_comboVariant_currentIndexChanged(int index)
+{
+    ui->comboVariant->setCurrentIndex(-1);
+}
+
+
+void MainWindow::on_BtChange_clicked()
+{
+    if (ui->BtChange->text()== "Изменить")
+            ui->BtChange->setText("Прекратить изменения");
+
+    else
+            ui->BtChange->setText("Изменить");
 }
 

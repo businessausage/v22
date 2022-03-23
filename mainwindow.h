@@ -16,7 +16,9 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_4_clicked();
+      void on_comboVariant_currentIndexChanged(int index);
+
+      void on_BtChange_clicked();
 
 private:
     Ui::MainWindow *ui;
