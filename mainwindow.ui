@@ -371,7 +371,10 @@
          </font>
         </property>
         <property name="inputMask">
-         <string>^[0-9]+(.[0-9]{2})?$</string>
+         <string notr="true">9+(99 )</string>
+        </property>
+        <property name="text">
+         <string>+( )</string>
         </property>
        </widget>
       </item>
@@ -430,6 +433,73 @@
       </item>
      </layout>
     </widget>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>220</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+    </widget>
+    <widget class="QToolBox" name="toolBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>200</y>
+       <width>69</width>
+       <height>129</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>69</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>Page 1</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>69</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>Page 2</string>
+      </attribute>
+     </widget>
+=======
+    <widget class="QCalendarWidget" name="calendarWidget">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>170</y>
+       <width>312</width>
+       <height>190</height>
+      </rect>
+     </property>
+>>>>>>> f0239a8b9d6e6f9c8760b22e539b79f641f44301
+    </widget>
+>>>>>>> devlead
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
