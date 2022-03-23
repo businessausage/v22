@@ -40,7 +40,25 @@ void MainWindow::on_BtSbros_clicked()
     ui->EdtX->setText("");
     ui->EdtY->setText("");
     ui->comboREB->setCurrentIndex(-1);
-    ui->comboVariant->setCurrentIndex(-1);
+}
 
+
+void MainWindow::on_comboREB_currentIndexChanged(int index)
+{
+    if (ui->comboREB->currentIndex()==0)
+    {
+        ui->EdtKoef->setText("3");
+        ui->EdtMosh->setText("7");
+    }
+    if (ui->comboREB->currentIndex()==1)
+    {
+        ui->EdtKoef->setText("4");
+        ui->EdtMosh->setText("9");
+    }
+    if (ui->comboREB->currentIndex()==2)
+    {
+        ui->EdtKoef->setText("4");
+        ui->EdtMosh->setText("11");
+    }
 }
 

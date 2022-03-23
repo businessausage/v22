@@ -22,6 +22,8 @@ private slots:
 
       void on_BtSbros_clicked();
 
+      void on_comboREB_currentIndexChanged(int index);
+
 private:
     Ui::MainWindow *ui;
 };
